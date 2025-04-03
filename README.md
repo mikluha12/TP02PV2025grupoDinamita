@@ -1,1 +1,1 @@
-# TP02PV2025grupoDinamita
+# TP02PV2025-Grupo
