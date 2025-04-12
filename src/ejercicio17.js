@@ -10,4 +10,4 @@ const contarLetraA = (s) => {
 
 let cnt = contarLetraA(s);
 
-console.log("La cantidad de veces que aparece 'a' es: " + cnt);
+console.log("La cantidad de veces que aparece 'a' en " + s + " es: " + cnt);

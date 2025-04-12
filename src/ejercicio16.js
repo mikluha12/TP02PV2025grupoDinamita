@@ -3,7 +3,7 @@ do{
     l = Number(prompt("Inicio: "));
     r = Number(prompt("Fin: "));
     if(l > r){
-        console.log(l + " debe ser menor que " + r);
+        console.log("Inicio (" + l + ")" + " debe ser menor que Fin (" + r + ")");
     }
 }while(l > r);
 
