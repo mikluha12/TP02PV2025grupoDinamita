@@ -11,15 +11,18 @@ mostrar un mensaje que no es un mes.
     <title>Document</title>
     <script>
         const meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
-        let mes = prompt("Ingrese un numero entero y le decimos que mes tiene ese numero");
-        Funcion_mes(mes);
-        function Funcion_mes(mes){
+
+        let Funcion_mes = (mes) =>{
             if(mes >=1 && mes <=12){
-                alert("Su mes es: "+meses[mes-1]);
+                return "Su mes es: "+meses[mes-1];
             }else{
-                alert("No hay ningun mes del año con ese numero.");
+                return "No hay ningun mes del año con ese numero.";
             }
         }
+
+        let mes = prompt("Ingrese un numero entero y le decimos que mes tiene ese numero");
+        let resultado=Funcion_mes(mes);        
+        alert(resultado);
 
     </script>
 </head>
