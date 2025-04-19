@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+
+button{
+    display: flex; 
+    padding: 25px 250px;
+    border-radius: 20px;
+    margin: 100px auto;
+    border: 2px solid rgb(71, 69, 69);
+    background-color: snow;
+}
+
+button:hover{
+    background-color: rgb(207, 207, 207);
+    border-color: rgb(31, 30, 30);
+    font-size: 13px;
+    font-weight: bold;
+}

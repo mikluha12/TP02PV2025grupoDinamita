@@ -1,10 +1,8 @@
 <!-- 
-
 11: Solicitar al usuario que ingrese el número de kilómetros recorridos por su vehículo y el
 número de litros de combustible consumidos. Calcular y mostrar el consumo de
 combustible por kilómetro.
 (*) El resultado se obtiene dividiendo número de litros dividido por número de kilómetros
-
 -->
 
 <!DOCTYPE html>
@@ -12,20 +10,20 @@ combustible por kilómetro.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 11</title>
     <script>
         let kilometros=0 , combustible=0;
         do{
             kilometros=prompt("Ingrese el número de kilómetros recorridos por su vehiculo: ");
         }while(kilometros <= 0 || isNaN(kilometros))
         
-        console.log("kilometros: "+kilometros);
+        console.log("kilometros: "+kilometros+"km");
         
         do{
             combustible=prompt("ingrese el numero de combustible consumido: ");
         }while(combustible <=0 || isNaN(combustible))
         
-        console.log("combustible: "+combustible);
+        console.log("combustible: "+combustible+" L");
         let consumo = combustible / kilometros;
         
         console.log("combustible por kilometro: "+consumo);
