@@ -1,0 +1,28 @@
+body{
+    background: black;
+    font-family: Philosopher;
+    color: white;
+    text-align: center;
+}
+article{
+    font-size: 30px;
+}
+
+#boton{
+    width: 150px;
+    height: 150px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#boton:active {
+    background-color: black;
+    transform: scale(0.95);
+}
+
+footer{
+    padding-top: 27%;
+}
