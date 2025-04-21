@@ -1,0 +1,18 @@
+#texto {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#objetivo {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fondo-rojo {
+    background-color: red;
+}
